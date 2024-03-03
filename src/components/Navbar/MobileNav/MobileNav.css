@@ -25,7 +25,8 @@
   transform: translateX(0);
 }
 
-.mobile-menu img {
+.mobile-menu h1 {
+  font-size: 2rem;
   margin-bottom: 3rem;
 }
 

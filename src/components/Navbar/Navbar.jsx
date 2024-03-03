@@ -16,8 +16,7 @@ const Navbar = () => {
 
       <nav className="nav-wrapper">
         <div className="nav-content">
-          <img className="logo" src="./assets/images/logo.png" alt="" />
-
+          <h1>Eduardo Santiago</h1>
           <ul>
             <li>
               <a className="menu-item">Home</a>

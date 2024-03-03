@@ -9,7 +9,7 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
         onClick={toggleMenu}
       >
         <div className="mobile-menu-container">
-          <img className="logo" src="./assets/images/logo.png" alt="" />
+          <h1>Eduardo Santiago</h1>
 
           <ul>
             <li>
