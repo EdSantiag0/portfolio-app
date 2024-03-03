@@ -1,42 +1,53 @@
-import React from "react";
-import { Menu } from "lucide-react";
+import React, { useState } from "react";
+import { Menu, X } from "lucide-react";
 import "./Navbar.css";
+import MobileNav from "./MobileNav/MobileNav";
 
 const Navbar = () => {
+  const [openMenu, setOpenMenu] = useState(false);
+
+  const toggleMenu = () => {
+    setOpenMenu(!openMenu);
+  };
+
   return (
-    <nav className="nav-wrapper">
-      <div className="nav-content">
-        <img className="logo" src="./assets/images/logo.png" alt="" />
+    <>
+      <MobileNav isOpen={openMenu} toggleMenu={toggleMenu} />
 
-        <ul>
-          <li>
-            <a className="menu-item">Home</a>
-          </li>
-          <li>
-            <a className="menu-item">Skills</a>
-          </li>
-          <li>
-            <a className="menu-item">Projects</a>
-          </li>
-          <li>
-            <a className="menu-item">Contact Me</a>
-          </li>
+      <nav className="nav-wrapper">
+        <div className="nav-content">
+          <img className="logo" src="./assets/images/logo.png" alt="" />
 
-          <button className="contact-btn" onClick={() => {}}>
-            Hire Me
+          <ul>
+            <li>
+              <a className="menu-item">Home</a>
+            </li>
+            <li>
+              <a className="menu-item">Skills</a>
+            </li>
+            <li>
+              <a className="menu-item">Projects</a>
+            </li>
+            <li>
+              <a className="menu-item">Contact Me</a>
+            </li>
+
+            <button className="contact-btn" onClick={() => {}}>
+              Hire Me
+            </button>
+          </ul>
+
+          <button className="menu-btn" onClick={toggleMenu}>
+            <span
+              className={"material-symbols-outlined"}
+              style={{ fontSize: "1.8rem" }}
+            >
+              {openMenu ? <X /> : <Menu />}
+            </span>
           </button>
-        </ul>
-
-        <button className="menu-btn" onClick={() => {}}>
-          <span
-            className={"material-symbols-outlined"}
-            style={{ fontSize: "1.8rem" }}
-          >
-            <Menu />
-          </span>
-        </button>
-      </div>
-    </nav>
+        </div>
+      </nav>
+    </>
   );
 };
 
