@@ -27,12 +27,11 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
             <li>
               <a className="menu-item">Contact Me</a>
             </li>
+            <button className="contact-btn" onClick={() => {}}>
+              Hire Me
+            </button>
           </ul>
         </div>
-
-        <button className="contact-btn" onClick={() => {}}>
-          Hire Me
-        </button>
       </div>
     </>
   );

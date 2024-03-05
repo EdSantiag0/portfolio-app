@@ -13,12 +13,8 @@
   align-items: center;
   justify-content: space-between;
   padding: 1rem 0;
+  padding-left: 1rem;
   margin: 0 auto;
-}
-
-.h1 {
-  width: 12rem;
-  height: auto;
 }
 
 .nav-content ul {
