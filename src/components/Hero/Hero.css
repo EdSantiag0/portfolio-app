@@ -29,13 +29,13 @@
 .hero-content {
   flex: 1;
   margin: 1rem;
-  margin-right: 25rem;
 }
 
 .hero-content h2 {
   font-size: 3.8rem;
   font-weight: 600;
   line-height: 5rem;
+  margin-bottom: 1rem;
 }
 
 .hero-content p {
@@ -43,6 +43,15 @@
   font-size: 1rem;
   font-weight: 400;
   line-height: 2rem;
+}
+
+.hero-img {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 5rem;
 }
 
 .hero-img img {
@@ -66,10 +75,6 @@
   .hero-container h2 {
     font-size: 3rem;
     line-height: 4rem;
-  }
-
-  .hero-content {
-    margin: 5rem;
   }
 
   .hero-container p {
