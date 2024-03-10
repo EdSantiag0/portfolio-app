@@ -25,15 +25,23 @@ const Projects = () => {
     ],
   };
 
+  const sliderRight = () => {
+    sliderRef.current.slickNext();
+  };
+
+  const sliderLeft = () => {
+    sliderRef.current.slickPrev();
+  };
+
   return (
     <section className="project-container">
       <h5>Projects</h5>
 
       <div className="project-content">
-        <div className="arrow-right">
+        <div className="arrow-right" onClick={sliderRight}>
           <span className="material-symbols-outlined">&gt;</span>
         </div>
-        <div className="arrow-left">
+        <div className="arrow-left" onClick={sliderLeft}>
           <span className="material-symbols-outlined">&lt;</span>
         </div>
 
