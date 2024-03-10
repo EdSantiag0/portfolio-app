@@ -1,15 +1,18 @@
 .project-card-container {
+  width: 23rem;
+  height: 30rem;
   background: #130f2a;
   border-radius: 0.65rem;
   border: 1.5px solid #6751b9;
   padding: 1.5rem;
-  margin: 0 1rem;
+  margin: 0 2rem;
 }
 
 .project-card-container img {
   margin: 0 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.8rem;
   width: 18rem;
+  height: 10rem;
   border-radius: 0.65rem;
   border: 2px solid #6751b9;
 }
@@ -17,11 +20,11 @@
 .project-card-container h6 {
   font-size: 1.5rem;
   font-weight: 500;
-  margin-bottom: 0.7rem;
+  margin-bottom: 1rem;
 }
 
 .project-card-container p {
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 400;
   margin-bottom: 0.5rem;
   position: relative;

@@ -11,7 +11,7 @@ const Projects = () => {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 2,
+    slidesToShow: 3,
     slideToScroll: 1,
     arrows: false,
     responsive: [
