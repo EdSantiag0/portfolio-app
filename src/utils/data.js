@@ -40,37 +40,37 @@ export const SKILLS = [
 
 export const PROJECTS = [
   {
-    img: "./assets/images/imgdemo/bookclubdemo",
+    img: "./assets/images/imgdemo/bookclubdemo.png",
     title: "Book Club",
     description:
       "App feito em React.js com função principal da biblioteca virtual. O usuário pode pesquisar livros e autores, obter suas informações e favoritar os livros.",
   },
   {
-    img: "./assets/images/imgdemo/bookclubdemo",
+    img: "./assets/images/imgdemo/bookclubdemo.png",
     title: "Wallet App",
     description:
       "Este é um painel de gerenciamento financeiro feito em JavaScript, HTML e CSS. O objetivo principal é o usuário adicionar e deletar lançamentos financeiros (que ficam salvos na api), e informar o saldo do mês.",
   },
   {
-    img: "./assets/images/imgdemo/bookclubdemo",
+    img: "./assets/images/imgdemo/bookclubdemo.png",
     title: "Supermarket List",
     description:
       "Esta é uma aplicação construída usando React.JS, com o objetivo de facilitar a criação de listas de supermercado. Foi utilizado o Atomic Design Concept para organizar os componentes.",
   },
   {
-    img: "./assets/images/imgdemo/bookclubdemo",
+    img: "./assets/images/imgdemo/bookclubdemo.png",
     title: "Zip Code Finder",
     description:
       "Este é um bucador de CEP feito com React JS e CSS. O objetivo é buscar informações de um CEP atravez de uma API e mostrar os dados da localização.",
   },
   {
-    img: "./assets/images/imgdemo/bookclubdemo",
+    img: "./assets/images/imgdemo/bookclubdemo.png",
     title: "Tailwind Spotify",
     description:
       "Este projeto é uma réplica construída com a estrutura Next.js e estilizada pelo framework Tailwind CSS. O principal objetivo é reproduzir a interface do Spotify, garantindo fidelidade ao design original. A implementação do Tailwind CSS simplifica a estilização, facilitando a manutenção e personalização dos estilos, em conformidade com as melhores práticas de design responsivo.",
   },
   {
-    img: "./assets/images/imgdemo/bookclubdemo",
+    img: "./assets/images/imgdemo/bookclubdemo.png",
     title: "Em contrução",
     description: " ",
   },

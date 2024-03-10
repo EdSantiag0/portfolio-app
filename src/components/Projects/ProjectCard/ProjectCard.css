@@ -1,0 +1,28 @@
+.project-card-container {
+  background: #130f2a;
+  border-radius: 0.65rem;
+  border: 1.5px solid #6751b9;
+  padding: 1.5rem;
+  margin: 0 1rem;
+}
+
+.project-card-container img {
+  margin: 0 1rem;
+  margin-bottom: 1rem;
+  width: 18rem;
+  border-radius: 0.65rem;
+  border: 2px solid #6751b9;
+}
+
+.project-card-container h6 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 0.7rem;
+}
+
+.project-card-container p {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+  position: relative;
+}
