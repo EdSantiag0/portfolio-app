@@ -12,14 +12,14 @@ const Projects = () => {
     infinite: true,
     speed: 500,
     slidesToShow: 3,
-    slideToScroll: 1,
+    slidesToScroll: 1,
     arrows: false,
     responsive: [
       {
         breakpoint: 769,
         settings: {
           slidesToShow: 1,
-          slideToScroll: 1,
+          slidesToScroll: 1,
         },
       },
     ],
