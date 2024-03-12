@@ -40,15 +40,15 @@
   .project-card-container img {
     height: 8rem;
   }
+
+  .project-card-container p {
+    font-size: 0.75rem;
+    margin-bottom: 0.3rem;
+  }
 }
 
 @media (max-width: 768px) {
   .project-card-container h6 {
     font-size: 0.95rem;
-  }
-
-  .project-card-container p {
-    font-size: 0.75rem;
-    margin-bottom: 0.3rem;
   }
 }

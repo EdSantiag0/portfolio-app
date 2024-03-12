@@ -43,7 +43,7 @@ export const PROJECTS = [
     img: "./assets/images/imgdemo/bookclubdemo.png",
     title: "Book Club",
     description:
-      "App feito em React.js com função principal da biblioteca virtual. O usuário pode pesquisar livros e autores, obter suas informações e favoritar os livros.",
+      "Desenvolvi um aplicativo robusto utilizando React.js, focado na experiência do usuário ao explorar e interagir com uma vasta biblioteca virtual. O aplicativo oferece funcionalidades que capacitam os usuários a realizar pesquisas detalhadas sobre livros e autores, além de proporcionar a capacidade de favoritar livros para fácil acesso posterior.",
   },
   {
     img: "./assets/images/imgdemo/walletappdemo.png",
