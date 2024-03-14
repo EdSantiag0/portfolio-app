@@ -5,10 +5,14 @@ const Hero = () => {
   return (
     <section className="hero-container">
       <div className="hero-content">
-        <h2>Eduardo Santiago</h2>
+        <h2>Desenvolver Front-End</h2>
+        <span>Eduardo Santiago</span>
+
         <p>
-          Passionate Frontend Developer | Transforming Ideas into Seamless and
-          Visually Stunning Web Solutions
+          I'm a front-end developer, passionate about technology, with a special
+          focus on frameworks like React.js. I'm currently expanding my horizons
+          to include back-end skills, with the aim of becoming a full-stack
+          developer. Shall we work together?
         </p>
       </div>
 

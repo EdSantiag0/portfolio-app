@@ -33,7 +33,7 @@
 @media (max-width: 1025px) {
   .project-card-container {
     width: 16rem;
-    height: 25rem;
+    height: 28rem;
     margin: 0 auto;
   }
 
@@ -48,7 +48,25 @@
 }
 
 @media (max-width: 768px) {
+  .project-card-container {
+    width: 25rem;
+  }
+
+  .project-card-container img {
+    width: 25rem;
+    height: 14rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .project-card-container h6 {
     font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .project-card-container {
+    width: 18rem;
   }
 }

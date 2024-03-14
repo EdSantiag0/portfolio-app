@@ -27,15 +27,15 @@
   align-items: center;
   justify-content: center;
   background: #2a2252;
-  border-radius: 0.65rem;
-  border: 1.5px solid #6852ba;
+  border-radius: 50%;
+  border: 2px solid #6852ba;
   position: absolute;
   top: -1rem;
   left: -1rem;
 }
 
 .skill-icon img {
-  width: 2.4rem;
+  width: 3.5rem;
   height: auto;
   object-fit: contain;
 }
@@ -55,7 +55,7 @@
   }
 
   .skill-icon img {
-    width: 1.8rem;
+    width: 2.5rem;
   }
 }
 
