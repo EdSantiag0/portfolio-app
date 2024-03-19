@@ -11,7 +11,7 @@
 }
 
 .contact-details-card .icon {
-  width: 4rem;
+  width: 8rem;
   height: 4rem;
   display: flex;
   align-items: center;
@@ -24,7 +24,12 @@
 .icon img {
   width: 1.8rem;
   height: auto;
+  margin-right: 0.5rem;
   object-fit: contain;
+}
+
+.icon p {
+  color: #fff;
 }
 
 .contact-details-card p {

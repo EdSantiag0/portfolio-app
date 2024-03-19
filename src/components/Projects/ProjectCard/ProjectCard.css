@@ -54,7 +54,7 @@
 
   .project-card-container img {
     width: 25rem;
-    height: 14rem;
+    height: 10rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -68,5 +68,8 @@
 @media (max-width: 450px) {
   .project-card-container {
     width: 18rem;
+  }
+  .project-card-container p {
+    font-size: 0.7rem;
   }
 }

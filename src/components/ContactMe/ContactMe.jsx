@@ -1,7 +1,6 @@
 import React from "react";
 import "./ContactMe.css";
 import ContactInfoCard from "./ContactInfoCard/ContactInfoCard";
-import ContactForm from "./ContactForm/ContactForm";
 
 const ContactMe = () => {
   return (
@@ -9,18 +8,29 @@ const ContactMe = () => {
       <h5>Contact Me</h5>
 
       <div className="contact-content">
-        <div style={{ flex: 1 }}>
+        <div className="contact-info-card">
           <ContactInfoCard
             iconUrl="./assets/images/imgicon/mail.svg"
-            text="eduardosantiago_@hotmail.com"
+            link="mailto:eduardosantiago_@hotmail.com"
+            text="E-mail"
           />
           <ContactInfoCard
             iconUrl="./assets/images/imgicon/github.svg"
-            text="https://github.com/EdSantiag0"
+            link="https://github.com/EdSantiag0"
+            text="Github"
           />
         </div>
-        <div style={{ flex: 1 }}>
-          <ContactForm />
+        <div className="contact-info-card">
+          <ContactInfoCard
+            iconUrl="./assets/images/imgicon/linkedin.svg"
+            link="https://www.linkedin.com/in/eduardo-santiago-e08/"
+            text="Linkedin"
+          />
+          <ContactInfoCard
+            iconUrl="./assets/images/imgicon/instagram.svg"
+            link="https://www.instagram.com/edsanttiago/"
+            text="Instagram"
+          />
         </div>
       </div>
     </section>
