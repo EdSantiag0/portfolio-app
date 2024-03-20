@@ -24,25 +24,25 @@ const Hero = () => {
             <img src="./assets/images/imgicon/github.svg" alt="icon" />
           </a>
           <a
-            href="https://github.com/EdSantiag0"
+            href="mailto:eduardosantiago_@hotmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="./assets/images/imgicon/github.svg" alt="icon" />
+            <img src="./assets/images/imgicon/mail.svg" alt="icon" />
           </a>
           <a
-            href="https://github.com/EdSantiag0"
+            href="https://www.linkedin.com/in/eduardo-santiago-e08/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="./assets/images/imgicon/github.svg" alt="icon" />
+            <img src="./assets/images/imgicon/linkedin.svg" alt="icon" />
           </a>
           <a
-            href="https://github.com/EdSantiag0"
+            href="https://www.instagram.com/edsanttiago/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="./assets/images/imgicon/github.svg" alt="icon" />
+            <img src="./assets/images/imgicon/instagram.svg" alt="icon" />
           </a>
         </div>
       </div>

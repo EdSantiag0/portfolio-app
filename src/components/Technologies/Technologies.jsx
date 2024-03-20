@@ -4,7 +4,7 @@ import "./Technologies.css";
 const Technologies = () => {
   return (
     <section id="technologies" className="technologies-container">
-      <h7>Technologies</h7>
+      <h6>Technologies</h6>
       <div className="tech-icons">
         <img
           src="./assets/images/imgtechnologies/javascript.svg"
