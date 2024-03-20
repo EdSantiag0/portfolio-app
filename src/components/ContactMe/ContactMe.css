@@ -35,3 +35,9 @@
     margin-bottom: 2rem;
   }
 }
+
+@media (max-width: 450px) {
+  .contact-content {
+    grid-template-columns: none;
+  }
+}

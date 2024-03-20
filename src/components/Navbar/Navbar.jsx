@@ -44,7 +44,12 @@ const Navbar = () => {
               </a>
             </li>
 
-            <button className="contact-btn" onClick={() => {}}>
+            <button
+              className="contact-btn"
+              onClick={() => {
+                window.open("whatsapp://send?phone=55981124758");
+              }}
+            >
               Hire Me
             </button>
           </ul>
