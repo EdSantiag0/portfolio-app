@@ -1,6 +1,6 @@
 .project-card-container {
   width: 23rem;
-  height: 30rem;
+  height: 35rem;
   background: #130f2a;
   border-radius: 0.65rem;
   border: 1.5px solid #6751b9;
@@ -17,6 +17,17 @@
   border: 2px solid #6751b9;
 }
 
+.project-card-icons {
+  display: flex;
+  margin: 0;
+}
+
+.project-card-icons img {
+  width: 2rem;
+  height: auto;
+  margin-right: 1rem;
+  background-color: #6751b9;
+}
 .project-card-container h6 {
   font-size: 1.5rem;
   font-weight: 500;
@@ -33,12 +44,17 @@
 @media (max-width: 1025px) {
   .project-card-container {
     width: 16rem;
-    height: 28rem;
+    height: 34rem;
     margin: 0 auto;
   }
 
   .project-card-container img {
     height: 8rem;
+  }
+
+  .project-card-icons img {
+    width: 1.5rem;
+    height: auto;
   }
 
   .project-card-container p {
@@ -58,6 +74,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .project-card-icons img {
+    width: 1.5rem;
+    height: auto;
   }
 
   .project-card-container h6 {

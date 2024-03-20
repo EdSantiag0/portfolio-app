@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
+import Technologies from "./components/Technologies/Technologies";
 import Skills from "./components/Skills/Skills";
 import Projects from "./components/Projects/Projects";
 import ContactMe from "./components/ContactMe/ContactMe";
@@ -13,6 +14,7 @@ const App = () => {
       <Navbar />
       <div className="container">
         <Hero />
+        <Technologies />
         <Skills />
         <Projects />
         <ContactMe />

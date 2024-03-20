@@ -24,6 +24,11 @@ const Navbar = () => {
               </a>
             </li>
             <li>
+              <a href="#technologies" className="menu-item">
+                Technologies
+              </a>
+            </li>
+            <li>
               <a href="#skills" className="menu-item">
                 Skills
               </a>

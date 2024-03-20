@@ -107,13 +107,13 @@
   }
   .nav-wrapper {
     margin-left: 1.2rem;
-    padding: 0 2rem;
+    padding: 0 0.3rem;
   }
 }
 
 @media (max-width: 769px) {
   .nav-wrapper {
-    margin-right: 2rem;
+    margin-right: 1rem;
   }
 
   .menu-btn {

@@ -26,6 +26,10 @@
     flex-direction: column-reverse;
   }
 
+  .contact-content {
+    grid-gap: 1rem;
+  }
+
   .contact-container h5 {
     font-size: 1.3rem;
     margin-bottom: 2rem;

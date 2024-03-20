@@ -14,6 +14,37 @@ const Hero = () => {
           to include back-end skills, with the aim of becoming a full-stack
           developer. Shall we work together?
         </p>
+
+        <div className="icon">
+          <a
+            href="https://github.com/EdSantiag0"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="./assets/images/imgicon/github.svg" alt="icon" />
+          </a>
+          <a
+            href="https://github.com/EdSantiag0"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="./assets/images/imgicon/github.svg" alt="icon" />
+          </a>
+          <a
+            href="https://github.com/EdSantiag0"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="./assets/images/imgicon/github.svg" alt="icon" />
+          </a>
+          <a
+            href="https://github.com/EdSantiag0"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="./assets/images/imgicon/github.svg" alt="icon" />
+          </a>
+        </div>
       </div>
 
       <div className="hero-img">
