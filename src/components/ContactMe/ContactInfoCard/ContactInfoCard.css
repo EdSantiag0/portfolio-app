@@ -18,7 +18,6 @@
   justify-content: center;
   border-radius: 0.5rem;
   background: #3d3072;
-  margin-bottom: 0.8rem;
 }
 
 .icon img {
@@ -35,4 +34,16 @@
 .contact-details-card p {
   font-size: 0.9rem;
   font-weight: 400;
+}
+
+.contact-details-card a[href^="mailto:"],
+.contact-details-card a[href^="whatsapp:"] {
+  text-decoration: none;
+}
+
+@media (max-width: 450px) {
+  .contact-details-card {
+    width: 18rem;
+    height: 6rem;
+  }
 }

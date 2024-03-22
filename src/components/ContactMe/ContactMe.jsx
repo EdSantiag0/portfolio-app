@@ -7,6 +7,13 @@ const ContactMe = () => {
     <section id="contactme" className="contact-container">
       <h5>Contact Me</h5>
 
+      <p>
+        Tem um projeto em mente ou apenas quer dar um oi? Sinta-se à vontade
+        para entrar em contato comigo através de qualquer um dos canais abaixo.
+        Estou sempre animado para me conectar com outros desenvolvedores e
+        colaboradores em potencial!
+      </p>
+
       <div className="contact-content">
         <div className="contact-info-card">
           <ContactInfoCard
@@ -27,9 +34,9 @@ const ContactMe = () => {
             text="Linkedin"
           />
           <ContactInfoCard
-            iconUrl="./assets/images/imgicon/instagram.svg"
-            link="https://www.instagram.com/edsanttiago/"
-            text="Instagram"
+            iconUrl="./assets/images/imgicon/whatsapp.svg"
+            link="whatsapp://send?phone=55981124758"
+            text="Whatsapp"
           />
         </div>
       </div>
