@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+}
+
 .contact-details-card {
   display: flex;
   flex-direction: column;
@@ -34,11 +38,6 @@
 .contact-details-card p {
   font-size: 0.9rem;
   font-weight: 400;
-}
-
-.contact-details-card a[href^="mailto:"],
-.contact-details-card a[href^="whatsapp:"] {
-  text-decoration: none;
 }
 
 @media (max-width: 450px) {
