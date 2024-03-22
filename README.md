@@ -10,7 +10,7 @@ Welcome to my portfolio! This portfolio is designed to showcase my web developme
 
 ## Live link:
 
-https://edsantiag0.github.io/site-portfolio/
+https://portifolio-app-alpha.vercel.app/
 
 ## Techs Used:
 
