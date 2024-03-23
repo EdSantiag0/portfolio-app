@@ -95,7 +95,7 @@ export const PROJECTS = [
     img: "./assets/images/imgdemo/workinprogress.jpg",
     icongit: "./assets/images/imgicon/github.svg",
     iconlink: "./assets/images/imgicon/link.svg",
-    title: "Em contrução",
+    title: "Em construção",
     description: " ",
   },
 ];
