@@ -33,8 +33,9 @@ export const SKILLS = [
     title: "Soft Skills",
     icon: "./assets/images/imgskills/social.png",
     skills: [
+      { skill: "Teamwork", percentage: "90%" },
       { skill: "Problem-solving", percentage: "80%" },
-      { skill: "Collaboration", percentage: "85%" },
+      { skill: "Search for Learning", percentage: "80%" },
       { skill: "Attention to Detail", percentage: "75%" },
     ],
   },
