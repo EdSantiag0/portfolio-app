@@ -93,6 +93,16 @@ export const PROJECTS = [
       "Este projeto é uma réplica construída com a estrutura Next.js e estilizada pelo framework Tailwind CSS. O principal objetivo é reproduzir a interface do Spotify, garantindo fidelidade ao design original. A implementação do Tailwind CSS simplifica a estilização, facilitando a manutenção e personalização dos estilos, em conformidade com as melhores práticas de design responsivo.",
   },
   {
+    img: "./assets/images/imgdemo/coffeeshopdemo.png",
+    icongit: "./assets/images/imgicon/github.svg",
+    linkgit: "https://github.com/EdSantiag0/coffee-shop",
+    iconlink: "./assets/images/imgicon/link.svg",
+    linkproject: "https://coffee-shop-neon-theta.vercel.app/",
+    title: "Coffe Shop Menu",
+    description:
+      "O Coffe shop Menu é um projeto inspirado em um Menu para Cafeteria. Criado para aprimorar meus conhecimentos em Tailwind CSS, e simular um desenvolvimento comercial do projeto.",
+  },
+  {
     img: "./assets/images/imgdemo/workinprogress.jpg",
     icongit: "./assets/images/imgicon/github.svg",
     iconlink: "./assets/images/imgicon/link.svg",
