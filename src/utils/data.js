@@ -53,14 +53,14 @@ export const PROJECTS = [
       "Desenvolvi um aplicativo robusto utilizando React.js, focado na experiência do usuário ao explorar e interagir com uma vasta biblioteca virtual. O aplicativo oferece funcionalidades que capacitam os usuários a realizar pesquisas detalhadas sobre livros e autores, além de proporcionar a capacidade de favoritar livros para fácil acesso posterior.",
   },
   {
-    img: "./assets/images/imgdemo/walletappdemo.png",
+    img: "./assets/images/imgdemo/coffeeshopdemo.png",
     icongit: "./assets/images/imgicon/github.svg",
-    linkgit: "https://github.com/EdSantiag0/wallet-app-frontend",
+    linkgit: "https://github.com/EdSantiag0/coffee-shop",
     iconlink: "./assets/images/imgicon/link.svg",
-    linkproject: "https://wallet-app-frontend-theta.vercel.app/",
-    title: "Wallet App",
+    linkproject: "https://coffee-shop-neon-theta.vercel.app/",
+    title: "Coffe Shop Menu",
     description:
-      "Este é um painel de gerenciamento financeiro feito em JavaScript, HTML e CSS. O objetivo principal é o usuário adicionar e deletar lançamentos financeiros (que ficam salvos na api), e informar o saldo do mês.",
+      "O Coffe shop Menu é um projeto inspirado em um Menu para Cafeteria. Criado para aprimorar meus conhecimentos em Tailwind CSS, e simular um desenvolvimento comercial do projeto.",
   },
   {
     img: "./assets/images/imgdemo/supermarketlistdemo.png",
@@ -93,14 +93,14 @@ export const PROJECTS = [
       "Este projeto é uma réplica construída com a estrutura Next.js e estilizada pelo framework Tailwind CSS. O principal objetivo é reproduzir a interface do Spotify, garantindo fidelidade ao design original. A implementação do Tailwind CSS simplifica a estilização, facilitando a manutenção e personalização dos estilos, em conformidade com as melhores práticas de design responsivo.",
   },
   {
-    img: "./assets/images/imgdemo/coffeeshopdemo.png",
+    img: "./assets/images/imgdemo/walletappdemo.png",
     icongit: "./assets/images/imgicon/github.svg",
-    linkgit: "https://github.com/EdSantiag0/coffee-shop",
+    linkgit: "https://github.com/EdSantiag0/wallet-app-frontend",
     iconlink: "./assets/images/imgicon/link.svg",
-    linkproject: "https://coffee-shop-neon-theta.vercel.app/",
-    title: "Coffe Shop Menu",
+    linkproject: "https://wallet-app-frontend-theta.vercel.app/",
+    title: "Wallet App",
     description:
-      "O Coffe shop Menu é um projeto inspirado em um Menu para Cafeteria. Criado para aprimorar meus conhecimentos em Tailwind CSS, e simular um desenvolvimento comercial do projeto.",
+      "Este é um painel de gerenciamento financeiro feito em JavaScript, HTML e CSS. O objetivo principal é o usuário adicionar e deletar lançamentos financeiros (que ficam salvos na api), e informar o saldo do mês.",
   },
   {
     img: "./assets/images/imgdemo/workinprogress.jpg",

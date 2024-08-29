@@ -44,10 +44,10 @@
   margin: 0.5rem 0;
   display: inline-block;
   overflow: hidden;
-  border-right: 0.15em solid #a993fe;
+  border-right: 0.12em solid #a993fe;
   white-space: nowrap;
   margin-right: 5px;
-  animation: typing 2s steps(40, end);
+  animation: typing 2s steps(40, end), fade-out-caret 1s ease 1.5s forwards;
 }
 
 @keyframes typing {
@@ -56,6 +56,15 @@
   }
   to {
     width: 100%;
+  }
+}
+
+@keyframes fade-out-caret {
+  from {
+    border-right: 0.12em solid #a993fe;
+  }
+  to {
+    border-right: 0;
   }
 }
 
