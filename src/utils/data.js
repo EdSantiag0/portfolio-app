@@ -5,6 +5,7 @@ export const SKILLS = [
     skills: [
       { skill: "HTML5", percentage: "75%" },
       { skill: "CSS3", percentage: "85%" },
+      { skill: "TypeScript", percentage: "70%" },
       { skill: "JavaScript", percentage: "75%" },
       { skill: "React.js", percentage: "80%" },
     ],
@@ -14,9 +15,10 @@ export const SKILLS = [
     icon: "./assets/images/imgskills/back.png",
     skills: [
       { skill: "Node.js", percentage: "80%" },
+      { skill: "Next.js", percentage: "50%" },
       { skill: "Express", percentage: "70%" },
       { skill: "MongoDB", percentage: "65%" },
-      { skill: "Python", percentage: "60%" },
+      { skill: "Python", percentage: "50%" },
     ],
   },
   {
@@ -25,8 +27,9 @@ export const SKILLS = [
     skills: [
       { skill: "Visual Studio Code", percentage: "85%" },
       { skill: "Git & GitHub", percentage: "80%" },
-      { skill: "Webpack", percentage: "75%" },
-      { skill: "Responsive Design", percentage: "75%" },
+      { skill: "Insomnia", percentage: "70%" },
+      { skill: "ClickUP", percentage: "75%" },
+      { skill: "Responsive Design", percentage: "80%" },
     ],
   },
   {
@@ -35,8 +38,9 @@ export const SKILLS = [
     skills: [
       { skill: "Teamwork", percentage: "90%" },
       { skill: "Problem-solving", percentage: "80%" },
-      { skill: "Search for Learning", percentage: "80%" },
+      { skill: "Search for Learning", percentage: "90%" },
       { skill: "Attention to Detail", percentage: "75%" },
+      { skill: "Clear Communication", percentage: "80%" },
     ],
   },
 ];
