@@ -107,6 +107,16 @@ export const PROJECTS = [
       "Este é um painel de gerenciamento financeiro feito em JavaScript, HTML e CSS. O objetivo principal é o usuário adicionar e deletar lançamentos financeiros (que ficam salvos na api), e informar o saldo do mês.",
   },
   {
+    img: "./assets/images/imgdemo/clientregisterdemo.png",
+    icongit: "./assets/images/imgicon/github.svg",
+    linkgit: "https://github.com/EdSantiag0/client-register-frontend",
+    iconlink: "./assets/images/imgicon/link.svg",
+    linkproject: "https://client-register-frontend.vercel.app/",
+    title: "Client Register",
+    description:
+      "Aplicação de registro de clientes desenvolvida com React.js, Fastify, Axios e TailwindCSS. Permite operações de CRUD integradas a uma API própria hospedada na Render. O projeto foi criado com foco em boas práticas, organização de código e aprendizado Fullstack.",
+  },
+  {
     img: "./assets/images/imgdemo/workinprogress.jpg",
     icongit: "./assets/images/imgicon/github.svg",
     iconlink: "./assets/images/imgicon/link.svg",
